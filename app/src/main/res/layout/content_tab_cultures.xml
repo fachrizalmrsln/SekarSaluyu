@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:focusable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:elevation="80dp"
+        app:cardCornerRadius="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_title"
+            android:fontFamily="@string/textFont"/>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_below="@id/title"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_margin="@dimen/default_margin"
+            android:textSize="@dimen/text_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/desc1"
+            android:fontFamily="@string/textFont"/>
+
+        <TextView
+            android:id="@+id/more"
+            android:clickable="true"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="MORE"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@string/textFont"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:textSize="@dimen/text_title"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sundaneseMusic"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:id="@+id/recyclerView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/space"
+                android:textSize="@dimen/text_title"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sundaneseDance"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:id="@+id/recyclerView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/space"
+                android:textSize="@dimen/text_title"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sundaneseInstruments"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:id="@+id/recyclerView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

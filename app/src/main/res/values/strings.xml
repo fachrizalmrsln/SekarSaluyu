@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SEKAR SALUYU</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sekar Saluyu</string>
+    <string name="nav_header_subtitle">Art Studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_cultures">CULTURES</string>
+    <string name="tab_art">ART GALLERY</string>
+    <string name="tab_services">SERVICES</string>
+
+    <string name="textFont">sans-serif</string>
+
+    <string name="title1">Sekar Saluyu Art\nStudio</string>
+    <string name="desc1">Sekar Saluyu is one of the Sundanese art gallery and art studio in Sekeloa north of Bandung City,
+    this studio has a variety of arts.</string>
+
+    <string name="sundaneseMusic">Sundanese Music</string>
+    <string name="sundaneseDance">Sundanese Dance</string>
+    <string name="sundaneseInstruments">Sundanese Instruments</string>
+
+    <string name="home">Home</string>
+    <string name="contacts">Contacts</string>
+    <string name="location">Location</string>
+    <string name="about">About</string>
+
+    <string name="ArtDesc1">Sekar Saluyu was founded in 1918 based on the book that the father holds, Sekar Saluyu was inaugurated in 1933.\n\n
+
+        Mr. Usep worked on 14 kinds of art that first there kesnian martial arts, there rudet (rudet is almost the same as marching band, but the original
+    sunda) outs, angklung and others.\n\n
+
+        Father also often make a sunda song for sholawatan, one of them is lais, sulak and debus.\n\n
+
+        In 1996 Mr. Usep began to manage art Sekar Saluyu, this art is a hereditary art, and now his most big children already have their own studio.\n\n
+
+        Sundanese language is expensive because why people can not Sundanese Sundanese language, which obviously comes from the Sundanese region Sumedang,
+         Garut, Ciamis, Cianjur, Bogor and Banten. Now in Banten there is still a sunda wiwitan namaynya. Sundanese culture is still sticky. There is a
+        Baduy tribes in the world, which is now beginning to modernize. If we acknowledge as a Sundanese, we should be able to speak Sundanese. Why should we
+     like karawitan as a Sundanese? Because karawitan is our example. For example, in the karawitan there are standards a light example of it there is
+     catrik and kulu-kulu (one of gamelan music), the catrik it,s 2 and 5 benchmark whereas goong and saron have to exist in five, now that is life example,
+     why always at-5? Because the first 5 is the same as the point of Pancasila, because we live in the country of Indonesia. Pancasila there gotong-royong,
+     togetherness, it is actually people who have implement the village.</string>
+    <string name="developer_student_clubs_chapter_unikom">Developer Student Clubs Chapter UNIKOM.</string>
+    <string name="developer">Developer</string>
+    <string name="this_app">This app is presenting a short lesson about sundanese cultures such as dance, music instrument, etc.
+    You also can books reservation for various events and sundanese culture class from Sekar Saluyu Art Studio.</string>
+    <string name="about_app">About App</string>
+    <string name="shareapp">Share App</string>
+</resources>
