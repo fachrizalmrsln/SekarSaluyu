@@ -8,8 +8,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.fahri.sekarsaluyu.Grid.GridAdapter;
-import com.example.fahri.sekarsaluyu.Grid.GridSetter;
 import com.example.fahri.sekarsaluyu.R;
 
 import java.util.ArrayList;

@@ -1,22 +1,16 @@
 package com.example.fahri.sekarsaluyu.Tab;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ListAdapter;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.fahri.sekarsaluyu.Grid.GridAdapter;
-import com.example.fahri.sekarsaluyu.Grid.GridSetter;
 import com.example.fahri.sekarsaluyu.List.ListSetter;
 import com.example.fahri.sekarsaluyu.R;
 

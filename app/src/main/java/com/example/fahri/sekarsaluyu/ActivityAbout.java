@@ -1,9 +1,9 @@
 package com.example.fahri.sekarsaluyu;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.WindowManager;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.WindowManager;
 
 public class ActivityAbout extends AppCompatActivity {
 
